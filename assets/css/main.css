@@ -18,6 +18,7 @@
     padding: 72px;
     display: flex;
     flex-direction: column;
+    gap: 32px;
 }
 
 .search-box {
@@ -48,4 +49,59 @@
 
 .use-map:hover {
     cursor: pointer;
+}
+
+.types {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.btn-112 {
+    width: 112px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #FFECEC;
+    border: none;
+}
+
+.btn-112:hover {
+    cursor: pointer;
+    background-color: aqua;
+    border: 1px solid darkorange;
+}
+
+.property {
+    background: #F7ECFF;
+}
+
+.job {
+    background: #ECF0FF;
+}
+
+.travel {
+    background: #D7F9F3;
+}
+
+.boat {
+    background: #E2FFD4;
+}
+
+.moto {
+    border: 1px solid #DBD5EC;
+    background: #FFF;
+    box-shadow: 0px 14px 16px 0px rgba(41, 11, 128, 0.10);
+}
+
+.ecenomy {
+    background: #FFF3C9;
+}
+
+.holiday {
+    background: #FFD9C9;
 }
